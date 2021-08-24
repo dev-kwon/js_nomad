@@ -22,17 +22,30 @@ const amIFatTwo = "true";
 // console.log(amIFatTwo);
 
 
-const daysOfWeek = ["mon","tue","wed","thu","fri","sat","sun"];
+// const daysOfWeek = ["mon","tue","wed","thu","fri","sat","sun"];
 
 
-console.log(daysOfWeek);
+// console.log(daysOfWeek);
 
 // Add one more day to the Array
-daysOfWeek.push("aaa");
+// daysOfWeek.push("aaa");
 
-console.log(daysOfWeek);
+// console.log(daysOfWeek);
 
 // pop
-daysOfWeek.pop();
+// daysOfWeek.pop();
 
-console.log(daysOfWeek);
+// console.log(daysOfWeek);
+
+// Do something with Object
+// player
+const player = {
+    name : "nico",
+    points : 10,
+    fat: true,
+};
+
+console.log(player);
+player.fat = false;
+player.lastName = "potato"; 
+console.log(player);
