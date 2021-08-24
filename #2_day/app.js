@@ -7,12 +7,32 @@ var 재선언 가능, 재할당 가능
 const a = 5;
 const b = 2;
 let myName = "nico";
+const amIFat = true;
+const amIFatTwo = "true";
 
-console.log(a+b);
-console.log(a*b);
-console.log(a/b);
-console.log("hello" + myName);
+// console.log(a+b);
+// console.log(a*b);
+// console.log(a/b);
+// console.log("hello" + myName);
 
-myName = "nicolas";
-console.log("hello" + myName);
+// myName = "nicolas";
+// console.log("hello" + myName);
 
+// console.log(amIFat);
+// console.log(amIFatTwo);
+
+
+const daysOfWeek = ["mon","tue","wed","thu","fri","sat","sun"];
+
+
+console.log(daysOfWeek);
+
+// Add one more day to the Array
+daysOfWeek.push("aaa");
+
+console.log(daysOfWeek);
+
+// pop
+daysOfWeek.pop();
+
+console.log(daysOfWeek);
